@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+}
+.usuari, .gesti, .cuenFinan, .actuDatos {
+    border: 2px solid black; 
+    padding: 20px; 
+    width: 20%; 
+    display: block; 
+    transition: transform 0.3s;
+    box-sizing: border-box; 
+    max-width: 200px; 
+}
+
+.usuari:hover, .gesti:hover, .cuenFinan:hover, .actuDatos:hover{
+    transform: scale(1.1); 
+}
+
+.uni {
+    border: 2px solid black; 
+    padding: 10px; 
+    margin: 0;
+    text-align: center;
+}
+
+
+.imagenlogo {
+    width: 150px; 
+    height: auto; 
+    position: absolute; 
+    top: 0px;
+    left: 0; 
+}
+.imagenusu {
+    width: 40px; 
+    height: auto; 
+}
+.imagengesti {
+    width: 30px; 
+}
+.imagenFinan {
+    width: 40px; 
+    height: auto; 
+}
+
+.imagenactu{
+    width: 40px; 
+    height: auto; 
+}
